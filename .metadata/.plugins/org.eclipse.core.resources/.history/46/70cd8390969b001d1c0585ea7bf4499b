@@ -1,0 +1,15 @@
+package Polymorphism;
+
+public class WebDriverTest {
+	public static void main(String[] args) {
+		
+		ChromeDriver chrome = new ChromeDriver();
+		chrome.open();
+		chrome.refresh();
+		
+		FireFoxDriver firefox = new FireFoxDriver();
+		firefox.refresh();
+		firefox.open();
+	}
+
+}

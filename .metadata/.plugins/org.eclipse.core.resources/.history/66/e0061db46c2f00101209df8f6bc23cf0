@@ -1,0 +1,9 @@
+package com.syntax.class14;
+
+public class Garage {
+	public static void main(String[] args) {
+
+		//building individual objects
+		
+	}
+}

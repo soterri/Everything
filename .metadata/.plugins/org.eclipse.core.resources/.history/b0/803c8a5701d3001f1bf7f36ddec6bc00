@@ -1,0 +1,33 @@
+package MethodOverriding;
+
+public class CarSuper {
+	
+	String make, model;
+	int year;
+
+	CarSuper(){
+		System.out.println("I am a non argument constructor");
+	}
+	
+	public void display() {
+		System.out.println("I built "+year+" "+make+" "+model);
+	}
+	public static void main(String[] args) {
+		
+		CarSuper car = new CarSuper();
+		car.display();
+		
+		System.out.println("---obj of child class----");
+		
+	}
+
+}
+class Tesla extends CarSuper{
+	
+	boolean autoPilot;
+	
+	Tesla(){
+		System.out.println("Child class non argument constructor");
+	}
+	
+}

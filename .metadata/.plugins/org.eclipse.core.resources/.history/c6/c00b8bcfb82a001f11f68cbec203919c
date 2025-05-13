@@ -1,0 +1,14 @@
+package SuperKeyword;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		
+		//creating an obj of child class
+		//Tesla tesla = new Tesla();
+		Tesla tesla1 = new Tesla(true);
+		tesla1.make="Toyota";
+		tesla1.displayInfo();
+		
+	}
+}

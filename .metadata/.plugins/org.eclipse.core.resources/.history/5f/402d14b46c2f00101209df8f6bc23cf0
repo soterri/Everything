@@ -1,0 +1,15 @@
+package com.syntax.class14;
+
+public class Carr {
+	
+	//inside this car class we will define features in forms of variables
+	//and actions in form of methods
+	
+	//define feature of the car
+	String make, model, color;
+	int year;
+	
+	
+	
+
+}

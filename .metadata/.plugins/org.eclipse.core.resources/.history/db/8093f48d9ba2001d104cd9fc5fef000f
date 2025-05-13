@@ -1,0 +1,27 @@
+package CollectionsII;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class SetFamilyMembers {
+	public static void main(String[] args) {
+		
+		Set<String> fruitSet = new LinkedHashSet<>();
+		fruitSet.add("Apple");
+		fruitSet.add("mango");
+		fruitSet.add("bananas");
+		fruitSet.add("Apple");
+		fruitSet.add("kiwi");
+		fruitSet.add("mango");
+		
+		System.out.println(fruitSet.size());
+		//System.out.println(fruitSet);
+		
+		for(int i=0; i<fruitSet.size(); i++) {
+			System.out.println(fruitSet);
+		}
+		
+		
+	}
+
+}

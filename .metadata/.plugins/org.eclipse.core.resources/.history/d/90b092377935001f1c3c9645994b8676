@@ -1,0 +1,16 @@
+package AbstractionAndInterface;
+
+public class Account {
+	
+	private long accountNumber;
+	private double balance;
+	
+	public long getAccountNumber() {
+		return accountNumber;
+	}
+	
+	public double getBalance() {
+		return balance;
+	}
+
+}

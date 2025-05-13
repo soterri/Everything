@@ -1,0 +1,27 @@
+package interviewQuestions;
+
+import java.util.Arrays;
+
+public class IQ2 {
+	public static void main(String[] args) {
+
+		/*
+		 * Write a java program to find the second largest number in the array Max and
+		 * Min number in array?
+		 * 
+		 * I will use the sort method. It will sort out my array from lowest value to largest value.
+		 * to get min will get first element from array and will not hardcode will use the property of array using length - 1
+		 */
+
+		int[] array = {100,-90,8787,0,10,25};
+		
+		Arrays.sort(array);
+		
+		int min=array[0];
+		int max = array[array.length-1];
+		
+		System.out.println(min+" "+max);
+
+	}
+
+}

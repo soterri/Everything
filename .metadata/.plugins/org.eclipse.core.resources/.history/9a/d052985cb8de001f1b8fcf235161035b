@@ -1,0 +1,34 @@
+package Map;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class MethodReturnObject {
+	public static void main(String[] args) {
+		//create a method that will return an object
+		
+	}
+	
+	//create a method that will an object of scanner class
+	public static Scanner returnScanner() {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		return scan;
+		
+	}
+	
+	//create a method that will return an object of arrayList class
+	public static List<String> returnList() {
+		
+		List<String> list = new ArrayList<>();
+		list.add("Hello");
+		list.add("Bye");
+		
+		return list;
+		
+	}
+	
+
+}

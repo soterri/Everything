@@ -1,0 +1,18 @@
+package Map;
+
+import java.util.*;
+
+public class Grocery {
+
+	public static void main(String[] args) {
+		
+		Map<String, Integer> grocery = new LinkedHashMap<>();
+		grocery.put("milk", 5);
+		grocery.put("apples", 10);
+		grocery.put("bread", 1);
+		
+		//to retrieve a single value 
+		System.out.println(grocery.get("milk"));
+		
+	}
+}

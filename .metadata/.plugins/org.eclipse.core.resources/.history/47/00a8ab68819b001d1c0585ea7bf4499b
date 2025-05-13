@@ -1,0 +1,12 @@
+package Polymorphism;
+
+public class BankTest {
+
+	public static void main(String[] args) {
+		
+		Bank bank = new Bank();
+		bank.money=900;
+		double fee = bank.chargeFee();
+		System.out.println("bank fee "+fee);
+	}
+}

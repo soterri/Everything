@@ -1,0 +1,15 @@
+package com.syntax.class14;
+
+public class Garage {
+	public static void main(String[] args) {
+
+		//building individual objects
+		Carr car1 = new Carr();
+		car1.make="Honda";
+		car1.model="Accord";
+		car1.drive();
+		
+		
+		
+	}
+}

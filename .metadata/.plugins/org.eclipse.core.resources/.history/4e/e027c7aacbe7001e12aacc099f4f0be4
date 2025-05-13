@@ -1,0 +1,17 @@
+package InheritanceAndThisKW;
+
+public class Child2 {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Child1 childd = new Child1();
+		childd.eyeColor="blue";
+		childd.hairColor="black";
+		childd.sing();
+		System.out.println(childd.race);
+		
+	}
+
+}

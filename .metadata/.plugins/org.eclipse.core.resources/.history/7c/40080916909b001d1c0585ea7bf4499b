@@ -1,0 +1,12 @@
+package Polymorphism;
+
+public class MethodOverriding extends Cat {
+	
+	public static void main(String[] args) {
+		
+		Cat cat = new Cat();
+		cat.eat();
+		cat.sleep();
+	}
+
+}

@@ -1,0 +1,83 @@
+package AbstractionAndInterface;
+
+public interface WebDriver {
+	
+	void openBrowser();
+	
+	void closeBrowser();
+	
+	void maximizeWindow();
+	
+	void findElement();
+}
+
+abstract class Browser {
+	
+	public abstract void refresh();
+}
+
+class ChromeDriver extends Browser implements WebDriver {
+
+	@Override
+	public void openBrowser() {
+		System.out.println("Open Chrome browser");
+		
+	}
+
+	@Override
+	public void closeBrowser() {
+		System.out.println("Close Chrome browser");
+		
+	}
+
+	@Override
+	public void maximizeWindow() {
+		System.out.println("Maximize chrome browser");
+		
+	}
+
+	@Override
+	public void findElement() {
+		System.out.println("Find element xpath");
+		
+	}
+
+	@Override
+	public void refresh() {
+		System.out.println("Refresh Chrome browser");
+		
+	}
+}
+	
+class FireFoxDriver implements WebDriver {
+
+	@Override
+	public void openBrowser() {
+		System.out.println("Open FF browser");
+		
+	}
+
+	@Override
+	public void closeBrowser() {
+		System.out.println("Close FF browser");
+		
+	}
+
+	@Override
+	public void maximizeWindow() {
+		System.out.println("Maximize FF browser");
+		
+	}
+
+	@Override
+	public void findElement() {
+		System.out.println("Find element xpath firefox");
+		
+	}
+
+
+
+	
+}
+	
+	

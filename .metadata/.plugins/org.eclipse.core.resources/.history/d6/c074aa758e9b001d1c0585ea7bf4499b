@@ -1,0 +1,25 @@
+package Polymorphism;
+
+public class Animal {
+
+	public void sleep() {
+		System.out.println("Animal can sleep");
+	}
+
+	public void eat() {
+		System.out.println("Animal can eat");
+	}
+
+}
+
+class Cat extends Animal {
+
+	public static void main(String[] args) {
+		
+	
+	Animal ani = new Animal();
+	ani.eat();
+	ani.sleep();
+	
+	}
+}

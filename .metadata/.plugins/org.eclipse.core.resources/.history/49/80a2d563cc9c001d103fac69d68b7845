@@ -1,0 +1,17 @@
+package SuperKeyword;
+
+public class Room extends Building{
+
+	int roomNumber;
+	
+	Room(int roomNumber){
+		this.roomNumber=roomNumber;
+	}
+	public static void main(String[] args) {
+		
+		Room room = new Room(408);
+		System.out.println(room);
+		
+		
+	}
+}

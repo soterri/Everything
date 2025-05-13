@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CollectionsII.HashSetDemo&apos; to &apos;HashSetDemoSweets&apos;&#x0D;&#x0A;- Original project: &apos;JavaClasses&apos;&#x0D;&#x0A;- Original element: &apos;CollectionsII.HashSetDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;CollectionsII.HashSetDemoSweets&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HashSetDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;CollectionsII{HashSetDemo.java[HashSetDemo" matchStrategy="1" name="HashSetDemoSweets" qualified="false" references="true" similarDeclarations="false" stamp="1676928104890" textual="false" version="1.0"/>
+</session>

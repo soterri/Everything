@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.syntax.class15.RecapOfMethods1"/>
+    <fullyQualifiedTypeName name="com.syntax.class16.StaticVsNonStatic"/>
+    <fullyQualifiedTypeName name="com.syntax.class16.AccessModifiers"/>
+    <fullyQualifiedTypeName name="com.syntax.class17.ConstructorDemo"/>
+    <fullyQualifiedTypeName name="InheritanceAndThisKW.ThisKeyword"/>
+    <fullyQualifiedTypeName name="InheritanceAndThisKW.ThisWithConstructor"/>
+    <fullyQualifiedTypeName name="InheritanceAndThisKW.Constructor"/>
+    <fullyQualifiedTypeName name="InheritanceAndThisKW.ScrumTeam"/>
+    <fullyQualifiedTypeName name="InheritanceAndThisKW.WaterFallTeam"/>
+    <fullyQualifiedTypeName name="AbstractionAndInterface.RegistrationClass"/>
+    <fullyQualifiedTypeName name="Collections.Instructor"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Alerts.PromptAlert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="com.utils.Constants"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.NoAlertPresentException"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchFrameException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="com.utils.CommonMethods"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="VariablesAndAccessModifiers.LocalVariables"/>
+    <fullyQualifiedTypeName name="VariablesAndAccessModifiers.InstanceVariables"/>
+    <fullyQualifiedTypeName name="VariablesAndAccessModifiers.Doggy"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.syntax.class15.BuiltAndUserDefinedMethods"/>
+    <fullyQualifiedTypeName name="ConstuctorClass.ConstructorDemo"/>
+    <fullyQualifiedTypeName name="ConstuctorClass.BetterCar"/>
+    <fullyQualifiedTypeName name="interviewQuestions.WaterFallTeam"/>
+    <fullyQualifiedTypeName name="Polymorphism.ConstructorOverloading"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="Collections.Iterator"/>
+    <fullyQualifiedTypeName name="StaticKeywordAndAccessModifiers.AccessModifiers"/>
+</qualifiedTypeNameHistroy>

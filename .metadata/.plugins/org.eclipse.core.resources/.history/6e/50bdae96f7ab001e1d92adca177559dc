@@ -1,0 +1,25 @@
+package interviewQuestions;
+
+import java.util.Arrays;
+
+public class IQ2 {
+	public static void main(String[] args) {
+
+		/*
+		 * Write a java program to find the second largest number in the array Max and
+		 * Min number in array?
+		 */
+
+		int[] array = { 100, -90, 8787, 898, 0, 1 };
+		
+		//1 easiest way
+		Arrays.sort(array);
+		
+		int min=array[0];
+		int max=array[array.length-1];
+		
+		System.out.println(min);
+
+	}
+
+}

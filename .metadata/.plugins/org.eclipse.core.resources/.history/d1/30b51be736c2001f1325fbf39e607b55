@@ -1,0 +1,23 @@
+package com.syntax.class11;
+
+public class ClassTask {
+
+	// create a 2D array where you will store the following values:
+	// Mr, Mrs,Ms,Miss after storing the values print mrs. smith, mr. obama, ms.
+	// jackson
+
+	public static void main(String[] args) {
+		
+		String[][] title = {
+				
+				{"Mr","Mrs","Miss","Miss", "Ms"},
+				{"Smith", "Obama","Jackson"}
+		};
+		
+			System.out.println(title[0][2]+" ");
+			System.out.print(title[1][1]);
+
+	}
+
+}
+

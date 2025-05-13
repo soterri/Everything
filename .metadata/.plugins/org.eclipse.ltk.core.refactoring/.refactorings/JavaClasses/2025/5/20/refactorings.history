@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.syntax.class14&apos; to &apos;Oops&apos;&#x0D;&#x0A;- Original project: &apos;JavaClasses&apos;&#x0D;&#x0A;- Original element: &apos;JavaClasses/src/com.syntax.class14&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaClasses/src/Oops&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.syntax.class14&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.syntax.class14" name="Oops" qualified="false" references="true" stamp="1747156023019" textual="false" version="1.0"/>
+</session>

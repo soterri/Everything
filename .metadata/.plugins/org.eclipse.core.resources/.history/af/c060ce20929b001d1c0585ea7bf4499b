@@ -1,0 +1,21 @@
+package Polymorphism;
+
+public class RunTimePolymorphism {
+	
+	public static void main(String[] args) {
+		
+		//widening
+		double d = 90;
+		
+		//narrowing
+		int i=(int)1.99;
+		
+		//non primitive typecasting
+		//widening - creating an object of the class and giving reference to the parent class
+		Animal obj = new Cat();
+		
+		obj.eat();
+		obj.sleep();
+	}
+
+}

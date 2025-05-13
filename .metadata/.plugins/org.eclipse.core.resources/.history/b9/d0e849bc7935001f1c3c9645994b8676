@@ -1,0 +1,25 @@
+package AbstractionAndInterface;
+
+public class Account {
+	
+	private long accountNumber;
+	private double balance;
+	
+	
+	//getter
+	public long getAccountNumber() {
+		return accountNumber;
+	}
+	
+	public double getBalance() {
+		return balance;
+	}
+	
+	//setters
+	public void setBalance(int amount) {
+		balance =  balance+amount;
+	}
+	public void setAccountNumber(long accountNumber) {
+		this.accountNumber=accountNumber; //initialize instance variables
+	}
+}

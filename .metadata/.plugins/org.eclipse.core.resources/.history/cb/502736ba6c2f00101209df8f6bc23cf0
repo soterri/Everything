@@ -1,0 +1,18 @@
+package com.syntax.class14;
+
+public class Carr {
+	
+	//inside this car class we will define features in forms of variables
+	//and actions in form of methods
+	
+	//define feature of the car
+	String make, model, color;
+	int year;
+	
+	//define behavior
+	void drive() {
+		System.out.println(make+" and "+model+ "can drive");
+	}
+	
+
+}
