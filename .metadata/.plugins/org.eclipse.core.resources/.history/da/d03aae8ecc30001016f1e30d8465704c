@@ -1,0 +1,37 @@
+package com.syntax.class15;
+
+public class MethodsArray {
+	
+	//create a method that will accept array of intergers and return max element from array
+	
+	int getLargesNumber(int[] array) {
+		
+		int largest=array[0];
+		
+		for(int i=1; i<array.length; i++) {
+			if(array[i]>largest) {
+				
+				largest=array[i];
+			}
+		}
+		return largest;
+	}
+	//create a method that will accept a string return each word from a given string
+	
+	String[] getWordsFromString(String str) {
+		
+		String[] array=str.split(" ");
+		
+		return array;
+	}
+
+	public static void main(String[] args) {
+		
+		MethodsArray obj = new MethodsArray();
+		int[] array= {50,800,55};
+		System.out.println(obj.getLargesNumber(array));
+		String myString = "John's a dumb bitch";
+		System.out.println(obj.getWordsFromString(myString));
+		
+	}
+}

@@ -1,0 +1,26 @@
+package com.syntax.class15;
+
+public class CreatingMethods {
+
+	/*
+	 * we want to create a method that will accept marks (90, 80)
+	 * based on the marks it will return grade (a,b,c)
+	 * if grade -> 90 A 80 -> B if grade less then 80 but more then 70 C and so on
+	 */
+	
+	void marks(int marks) {
+		
+		if(marks<90) {
+			System.out.println("A");
+		}else if(marks<80) {
+			System.out.println("B");
+		}else {
+			System.out.println("F");
+		}
+	}
+	public static void main(String[] args) {
+		
+		CreatingMethods obj = new CreatingMethods();
+		obj.marks(85);
+	}
+}

@@ -42,4 +42,5 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="Collections.Iterator"/>
     <fullyQualifiedTypeName name="StaticKeywordAndAccessModifiers.AccessModifiers"/>
+    <fullyQualifiedTypeName name="com.syntax.class15.ReturnRecap"/>
 </qualifiedTypeNameHistroy>

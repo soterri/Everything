@@ -1,0 +1,16 @@
+package com.syntax.class15;
+
+public class ReturnRecap {
+	
+	//create a mwthod that will return sum of 2 numbers
+	int returnSum(int a, int b) {
+		return a+b;
+		
+	}
+
+	public static void main(String[] args) {
+		ReturnRecap obj  = new ReturnRecap();
+		int sum=obj.returnSum(10, 20);
+		System.out.println(sum);
+	}
+}
